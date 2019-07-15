@@ -46,13 +46,13 @@ button,input,textarea{outline:0;font-size:12px;font-family:"Microsoft YaHei","å¾
 .msearch input[type=submit]{margin-left:2px;width:50px;height:38px;border:1px solid #000;background:#0c0;color:#fff;font-size:12px}
 #top-image{position:absolute;top:0;left:0;z-index:-999;width:100%;height:auto;min-width:1024px;max-height:210px;background-position:center;background-size:cover}
 .bg-image-pattern{width:100%;height:100%;position:fixed;top:0;left:0;z-index:-998;background:url(images/bg-fixed.png) repeat}
-.header-v{display:inline-block;background-image:url(images/v.png);background-repeat:no-repeat;background-size:15px;width:20px;height:18px;margin-left:10px}
+.header-v{display:inline-block;background-image:url(https://ae01.alicdn.com/kf/HTB1kdgualv0gK0jSZKb762K2FXaK.png);background-repeat:no-repeat;background-size:15px;width:20px;height:18px;margin-left:10px}
 #header{overflow:hidden;width:100%;height:180px;color:#fff;text-align:left}
 #header1{margin-bottom:-180px;overflow:hidden;position:relative;width:100%;height:180px}
 #header .box{position:relative;margin:0 auto;padding:45px 0;width:1366px}
 #header .logo{float:left;width:100px;height:100px}
 #header1 .logo1{display:none}
-#header .logo img{width:100px;height:100px;border:3px solid #EEE;border-radius:50%;vertical-align:middle;transition:all 1s ease-in-out 0;-webkit-animation:bounceIn 1s linear;animation:bounceIn 1s linear}
+#header .logo img{width:100px;height:100px;border:3px solid #EEE;border-radius:50%;vertical-align:middle;transition:all 1s ease-in-out ;-webkit-animation:bounceIn 1s linear;animation:bounceIn 1s linear}
 #header .logo img:hover{border:3px solid #0c0}
 #header h1 a{margin-left:15px;color:#fff;font-size:30px;line-height:2}
 #header .text{overflow:hidden;margin-left:115px;padding-top:4px;height:23px;color:#FFF;font-size:16px;line-height:1.5}
@@ -87,7 +87,7 @@ button,input,textarea{outline:0;font-size:12px;font-family:"Microsoft YaHei","å¾
 #head-nav .nav{float:left}
 .m-nav{float:right;display:block;width:340px;text-align:right;font-size:14px}
 .m-nav li{display:inline-block;margin:2px 0;height:58px}
-.m-nav li a{float:left;padding:10px;border-bottom:3px solid #f6f5f4;color:#000;white-space:nowrap;transition:all .3s ease 0}
+.m-nav li a{float:left;padding:10px;border-bottom:3px solid #f6f5f4;color:#000;white-space:nowrap;transition:all .3s ease }
 .m-nav li a:hover{color:#f6f5f4;border-bottom-width:6px}
 .m-nav li:nth-child(5n+1) a{border-color:#70b90d}
 .m-nav li:nth-child(5n+1) a:hover{color:#70b90d}
@@ -189,8 +189,8 @@ button,input,textarea{outline:0;font-size:12px;font-family:"Microsoft YaHei","å¾
 #footer a:hover{border-bottom:1px dotted #0c0;color:#0c0}
 #footer i{margin-right:2px;vertical-align:-1px}
 #footer .copyright{display:inline}
-.backtop{position:fixed;top:50%;left:50%;z-index:3;clear:both;display:none;margin-top:-50px;margin-left:-747px;width:68px;height:100px;background:url(images/backtop.png)}
-.link-back2top{position:fixed;right:45px;bottom:80px;z-index:3;display:block;display:none;width:32px;width:32px;height:32px;height:32px;border-radius:32px;background:url(images/bg_top.png) no-repeat scroll 13px center #d6d6d6}
+.backtop{position:fixed;top:50%;left:50%;z-index:3;clear:both;display:none;margin-top:-50px;margin-left:-747px;width:68px;height:100px;background:url(https://ae01.alicdn.com/kf/HTB1yMcsakP2gK0jSZPx761cQpXa1.png)}
+.link-back2top{position:fixed;right:45px;bottom:80px;z-index:3;display:block;display:none;width:32px;width:32px;height:32px;height:32px;border-radius:32px;background:url(https://ae01.alicdn.com/kf/HTB1q.QtabH1gK0jSZFw7637aXXaW.png) no-repeat scroll 13px center #d6d6d6}
 .link-back2top:hover{background-color:#0c0}
 .blackground{position:fixed;top:0;left:0;z-index:101;display:none;width:100%;height:100%;background:#000;opacity:.8;filter:alpha(opacity=80)}
 #circle{position:fixed;bottom:30px;left:30px;margin:0 auto;width:60px;height:60px;border:5px solid rgba(10,10,10,.9);border-right:5px solid transparent;border-left:5px solid transparent;border-radius:50px;background-color:#fff;box-shadow:0 0 35px #000;opacity:.9;animation:spinPulse 1s infinite linear;-webkit-animation:spinPulse 1s infinite linear;-o-animation:spinPulse 1s infinite linear;-ms-animation:spinPulse 1s infinite linear}
@@ -248,7 +248,7 @@ button,input,textarea{outline:0;font-size:12px;font-family:"Microsoft YaHei","å¾
 .post-metaa .tools .Share ul,#dashang ul{margin:0;padding:0;list-style-type:none}
 .post-metaa .tools .Share ul li{position:relative;float:left;display:block;margin-right:5px;margin-left:5px;width:50px;height:50px}
 .post-metaa .tools .Share ul li a{display:block;margin-top:12px;margin-left:11px;width:28px;height:28px}
-.post-metaa .tools .Share ul li span,#dashang ul li span{position:absolute;bottom:0;left:5px;display:block;width:40px;height:10px;background:url(images/share_shade.png) 0 0 no-repeat}
+.post-metaa .tools .Share ul li span,#dashang ul li span{position:absolute;bottom:0;left:5px;display:block;width:40px;height:10px;background:url() 0 0 no-repeat}
 .post-metaa .tools .Share ul li a,#dashang ul li a{position:relative;display:inline-block;box-shadow:0 0 1px transparent;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:-webkit-transform;transition-property:transform;-webkit-transform:translateZ(0);transform:translateZ(0);-ms-transform:translateZ(0)}
 .post-metaa .tools .Share ul li a:before,#dashang ul li a:before{position:absolute;top:100%;left:-11%;z-index:1;width:120%;height:10px;background:-webkit-radial-gradient(center,ellipse,rgba(0,0,0,.35) 0,rgba(0,0,0,0) 80%);content:'';opacity:1;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:-webkit-transform,opacity;transition-property:transform,opacity;pointer-events:none}
 .post-metaa .tools .Share ul li a:hover,#dashang ul li a:hover{-webkit-transform:translateY(-10px);transform:translateY(-10px);-ms-transform:translateY(-10px);-webkit-animation-name:hover;animation-name:hover;-webkit-animation-duration:1.5s;animation-duration:1.5s;-webkit-animation-delay:.3s;animation-delay:.3s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-direction:alternate;animation-direction:alternate}
@@ -260,9 +260,9 @@ button,input,textarea{outline:0;font-size:12px;font-family:"Microsoft YaHei","å¾
 .post-metaa .tools .Share ul li a.share5{background:url(https://cdnjs.yava.pw/hf99/20181125/css/mb/images/share_icon.png) -112px 0}
 .post-metaa .tools .Share ul li a.share6{background:url(https://cdnjs.yava.pw/hf99/20181125/css/mb/images/share_icon.png) -140px 0}
 .wxpic,.qqpic,.zfbpic{display:none}
-#dashang ul li a.wx{background:url(images/dashang.png) 0 0}
-#dashang ul li a.qq{background:url(images/dashang.png) -90px 0}
-#dashang ul li a.zfb{background:url(images/dashang.png) -180px 0}
+#dashang ul li a.wx{background:url(https://ae01.alicdn.com/kf/HTB1mNItai_1gK0jSZFq763paXXad.png) 0 0}
+#dashang ul li a.qq{background:url(https://ae01.alicdn.com/kf/HTB1mNItai_1gK0jSZFq763paXXad.png) -90px 0}
+#dashang ul li a.zfb{background:url(https://ae01.alicdn.com/kf/HTB1mNItai_1gK0jSZFq763paXXad.png) -180px 0}
 #dashang ul li a{display:block;margin-top:12px;width:90px;height:27px}
 #dashang ul li{position:relative;float:left;display:block;margin-right:15px;margin-left:15px;}
 .post-metaa .tools .Share .close,.post-metaa .tools .logbox .closebox,#dashang .close{margin-bottom:10px;color:#000;font-weight:700;font-size:18px}
@@ -306,11 +306,11 @@ button,input,textarea{outline:0;font-size:12px;font-family:"Microsoft YaHei","å¾
 .post-context button{display:inline-block;margin:2px 5px 0 0;margin-top:10px\9;padding:3px 5px;height:30px;border:1px #0c0 solid;border-radius:3px;background-color:#fff;color:#0c0;transition:.2s}
 .post-context button:hover{background:linear-gradient(to bottom,#080 0,#0c0 100%);background-color:#0c0;box-shadow:0 1px 3px rgba(0,0,0,.28);color:#fff}
 .post-context button:active{background:#FF262E;color:#fff}
-.post-context .gray{margin:20px 0;padding:15px 15px 15px 70px;border:1px solid #ccc;background:url(images/checklist.png) no-repeat 20px 20px #f6f5f5;color:#000}
-.post-context .yellow{margin:20px 0;padding:15px 15px 15px 70px;border:1px solid #fbe951;background:url(images/warning.png) no-repeat 20px 20px #fff9c6;color:#cba200}
-.post-context .green{margin:20px 0;padding:15px 15px 15px 70px;border:1px solid #b7ec82;background:url(images/yes.png) no-repeat 20px 20px #ebf6e0;color:#649505}
-.post-context .blue{margin:20px 0;padding:15px 15px 15px 70px;border:1px solid #8accff;background:url(images/info.png) no-repeat 20px 20px #c3e5ff;color:#0d70bb}
-.post-context .red{margin:20px 0;padding:15px 15px 15px 70px;border:1px solid #ffacac;background:url(images/noway.png) no-repeat 20px 20px #ffe9e9;color:#bd0000}
+.post-context .gray{margin:20px 0;padding:15px 15px 15px 70px;border:1px solid #ccc;background:url(https://ae01.alicdn.com/kf/HTB19Qctahz1gK0jSZSg761vwpXak.png) no-repeat 20px 20px #f6f5f5;color:#000}
+.post-context .yellow{margin:20px 0;padding:15px 15px 15px 70px;border:1px solid #fbe951;background:url(https://ae01.alicdn.com/kf/HTB1v.7takH0gK0jSZPi761vapXa6.png) no-repeat 20px 20px #fff9c6;color:#cba200}
+.post-context .green{margin:20px 0;padding:15px 15px 15px 70px;border:1px solid #b7ec82;background:url(https://ae01.alicdn.com/kf/HTB1luUtahv1gK0jSZFF7620sXXa4.png) no-repeat 20px 20px #ebf6e0;color:#649505}
+.post-context .blue{margin:20px 0;padding:15px 15px 15px 70px;border:1px solid #8accff;background:url(https://ae01.alicdn.com/kf/HTB1GIctahn1gK0jSZKP760vUXXaV.png) no-repeat 20px 20px #c3e5ff;color:#0d70bb}
+.post-context .red{margin:20px 0;padding:15px 15px 15px 70px;border:1px solid #ffacac;background:url(https://ae01.alicdn.com/kf/HTB1apsualv0gK0jSZKb762K2FXaR.png) no-repeat 20px 20px #ffe9e9;color:#bd0000}
 .post-context blockquote{margin:10px 0;padding:.5em 10px;border:1px solid #d6d6d6;border-left:3px solid #ccc;background:#f9f9f9}
 .post-context code{padding:2px 4px;border:1px solid #d6d6d6;background-color:#f7f7f9;color:#d14}
 .post-context pre{margin:15px auto}
@@ -382,16 +382,16 @@ ul.link-content li img{float:left;margin:4px 8px 2px 6px;width:16px;height:16px;
 .archives li span{display:inline-block;padding:10px 0 0 30px;width:100px;text-indent:20px;font-size:12px}
 .archives li a .atitle:hover{color:#0c0}
 .archives li a .atitle{position:relative;display:inline-block;padding:5px 0 5px 150px;width:calc(100% - 150px)}
-.archives em1{position:absolute;display:block;margin-top:8px;left:123px;overflow:hidden;width:12px;height:18px;background:url(images/timeline.png) -36px 0}
+.archives em1{position:absolute;display:block;margin-top:8px;left:123px;overflow:hidden;width:12px;height:18px;background:url(https://ae01.alicdn.com/kf/HTB1LVQuabY1gK0jSZTE760DQVXad.png) -36px 0}
 .archives{position:relative;padding:10px 0}
 .archives:before{position:absolute;top:0;left:126px;width:4px;height:100%;background:#eee;content:""}
 .archives h4{position:relative;margin-left:10px;width:120px;font-size:14px}
 .archives h4:hover:after{background:#0c0}
 .archives h4:before{position:absolute;top:3px;left:109px;width:18px;height:18px;border-radius:9px;background:#fff;box-shadow:inset 0 0 4px #390;content:""}
 .archives h4:after{position:absolute;top:6px;left:112px;width:12px;height:12px;border-radius:6px;background:#ccc;content:""}
-.archives .plus{position:absolute;left:115px;width:29px;background:url(images/timeline.png) 0 -35px;height:10px;top:0}
-.archives .plus2{position:absolute;left:123px;width:10px;bottom:0;background:url(images/timeline.png) -29px -26px;height:10px}
-.five-star,.four-star,.one-star,.three-star,.two-star{position:absolute;overflow:hidden;margin-top:7px;height:14px;background:url(images/star.png) repeat-x}
+.archives .plus{position:absolute;left:115px;width:29px;background:url(https://ae01.alicdn.com/kf/HTB19DUtabj1gK0jSZFO7637GpXaE.png) 0 -35px;height:10px;top:0}
+.archives .plus2{position:absolute;left:123px;width:10px;bottom:0;background:url(https://ae01.alicdn.com/kf/HTB19DUtabj1gK0jSZFO7637GpXaE.png) -29px -26px;height:10px}
+.five-star,.four-star,.one-star,.three-star,.two-star{position:absolute;overflow:hidden;margin-top:7px;height:14px;background:url(https://ae01.alicdn.com/kf/HTB1kmItabr1gK0jSZFD7629yVXat.png) repeat-x}
 .one-star{width:13px}
 .two-star{width:26px}
 .three-star{width:39px}
@@ -433,9 +433,9 @@ ul.link-content li img{float:left;margin:4px 8px 2px 6px;width:16px;height:16px;
 .tw li:hover .avatar{border-color:#0c0;color:#0c0;-webkit-animation:fgxs infinite 5s linear;animation:fgxs infinite 5s linear}
 .tw li:hover .tw-content{color:#0c0}
 .tw-content{position:relative;margin-left:106px;padding:20px 20px 20px 30px;border-radius:4px;background-color:#eee;color:#000;font-size:12px}
-.tw .plus{position:absolute;left:75px;width:29px;background:url(images/timeline.png) 0 -35px;height:10px;top:0}
-.tw .plus2{position:absolute;left:83px;width:10px;bottom:0;background:url(images/timeline.png) -29px -26px;height:10px}
-.tw li em1{position:absolute;left:83px;display:block;overflow:hidden;margin-top:8px;width:12px;height:18px;background:url(images/timeline.png) -36px 0}
+.tw .plus{position:absolute;left:75px;width:29px;background:url(https://ae01.alicdn.com/kf/HTB19DUtabj1gK0jSZFO7637GpXaE.png) 0 -35px;height:10px;top:0}
+.tw .plus2{position:absolute;left:83px;width:10px;bottom:0;background:url(https://ae01.alicdn.com/kf/HTB19DUtabj1gK0jSZFO7637GpXaE.png) -29px -26px;height:10px}
+.tw li em1{position:absolute;left:83px;display:block;overflow:hidden;margin-top:8px;width:12px;height:18px;background:url(https://ae01.alicdn.com/kf/HTB16F.uabj1gK0jSZFu763rHpXa4.png) -36px 0}
 .status-wall-meta{display:none;text-align:right}
 .status-wall-meta span{padding:2px 5px;border-radius:3px;background-color:#fff;color:#777;font-size:12px}
 .timg{max-width:100%}
@@ -446,8 +446,8 @@ ul.link-content li img{float:left;margin:4px 8px 2px 6px;width:16px;height:16px;
 .commentlist{position:relative;overflow:hidden;margin:0 auto 0;padding:0 65px 40px 0;height:auto}
 .commentlist .timeline{position:absolute;left:57px;float:left;display:block;width:4px;height:100%;background:#eee;font-size:0}
 .commentlist .timeline_container{text-align:left;margin:0 auto;width:29px;display:block;height:100%}
-.commentlist .timeline div.plus{position:absolute;width:29px;background:url(images/timeline.png) 0 -35px;height:10px;top:0;left:-11px}
-.commentlist .timeline div.plus2{position:absolute;width:10px;bottom:0;background:url(images/timeline.png) -29px -26px;height:10px;left:-3px}
+.commentlist .timeline div.plus{position:absolute;width:29px;background:url(https://ae01.alicdn.com/kf/HTB16F.uabj1gK0jSZFu763rHpXa4.png) 0 -35px;height:10px;top:0;left:-11px}
+.commentlist .timeline div.plus2{position:absolute;width:10px;bottom:0;background:url(https://ae01.alicdn.com/kf/HTB16F.uabj1gK0jSZFu763rHpXa4.png) -29px -26px;height:10px;left:-3px}
 .commentlist .comment{padding-top:10px}
 .commentlist .comment-body{position:relative;left:75px;display:inline-block;padding:5px 10px 10px 10px;width:auto;margin-right:10px;min-width:170px;border:solid #dfdfdf 1px;border-radius:2px;background:rgba(255,255,255,.7)}
 .commentlist .comment-body1{position:relative;left:75px;display:inline-block;margin-right:10px;padding:10px;width:auto;min-width:170px;border:solid #dfdfdf 1px;border-radius:2px;background:rgba(255,255,255,.7)}
@@ -472,7 +472,7 @@ ul.link-content li img{float:left;margin:4px 8px 2px 6px;width:16px;height:16px;
 .commentlist .comment-body myhk{position:absolute;top:50%;left:-7px;display:block;overflow:hidden;width:7px;height:11px;background:url(images/bg_msg2.gif) 0 0 no-repeat}
 .commentlist .comment-body1 myhk{position:absolute;top:-6px;left:28px;display:block;overflow:hidden;width:12px;height:7px;background:url(images/bg_msg2.gif) 0 -12px no-repeat}
 .commentlist .comment-body1 em1{display:none}
-.commentlist .comment-body em1{position:absolute;top:50%;left:-22px;display:block;overflow:hidden;margin-top:-7px;width:12px;height:18px;background:url(images/timeline.png) -36px 0}
+.commentlist .comment-body em1{position:absolute;top:50%;left:-22px;display:block;overflow:hidden;margin-top:-7px;width:12px;height:18px;background:url(https://ae01.alicdn.com/kf/HTB16F.uabj1gK0jSZFu763rHpXa4.png) -36px 0}
 .commentlist .comment-body .avatar1:hover,.commentlist .comment-body1 .avatar:hover{border-color:#0c0;-webkit-animation:myhk infinite 5s linear;animation:myhk infinite 5s linear}
 .commentlist .comment-body .reply,.commentlist .comment-body1 .reply{float:right;margin:-55px 0 0 0;color:#0c0;font-size:12px}
 .commentlist .comment-body .reply a,.commentlist .comment-body1 .reply a{color:#0c0;opacity:0;-webkit-transition:all .3s ease 0s;-moz-transition:all .3s ease 0s;-o-transition:all .3s ease 0s;transition:all .3s ease 0s;filter:alpha(opacity=0)}
@@ -487,7 +487,7 @@ ul.link-content li img{float:left;margin:4px 8px 2px 6px;width:16px;height:16px;
 .commentlist .comment-body .sign2,.commentlist .comment-body1 .sign2{color:#999aaa;margin:5px 0 -15px -5px;font-size:12px;border-top:1px dotted #ddd}
 .commentlist .comment-body .admin img,.commentlist .comment-body .sign2 img,.commentlist .comment-body1 .admin img,.commentlist .comment-body1 .sign2 img{width:11px;height:11px}
 .face1{vertical-align:middle;width:18px;height:18px}
-.forum_level{margin-top:-8px;background-position:0 0;position:absolute;top:18px;width:16px;height:16px;background:url(images/cont.png) no-repeat}
+.forum_level{margin-top:-8px;background-position:0 0;position:absolute;top:18px;width:16px;height:16px;background:url(https://ae01.alicdn.com/kf/HTB1m9ApaXY7gK0jSZKz761ikpXaf.png) no-repeat}
 .lv2{background-position:-24px 0!important}
 .lv3{background-position:-48px 0!important}
 .lv4{background-position:-72px 0!important}
@@ -536,7 +536,7 @@ ul.link-content li img{float:left;margin:4px 8px 2px 6px;width:16px;height:16px;
 .tijiao p{margin-top:10px}
 .close2{margin-top:-5px!important;padding-bottom:5px;border-bottom:1px solid #eee;color:#666;font-weight:700;font-size:18px}
 .close2 span{font-weight:400;font-size:12px}
-.close2 a{float:right;display:block;width:19px;height:19px;background:url(images/close.png) no-repeat;-webkit-transition:all .6s ease-in-out 0s;-moz-transition:all .6s ease-in-out 0s;transition:all .6s ease-in-out 0s}
+.close2 a{float:right;display:block;width:19px;height:19px;background:url(https://ae01.alicdn.com/kf/HTB1kQAsaeL2gK0jSZFm7637iXXaT.png) no-repeat;-webkit-transition:all .6s ease-in-out 0s;-moz-transition:all .6s ease-in-out 0s;transition:all .6s ease-in-out 0s}
 .close2 a:hover{-webkit-transform:rotate(-270deg);-moz-transform:rotate(-270deg);-o-transform:rotate(-270deg);transform:rotate(-270deg);-ms-transform:rotate(-270deg)}
 #usb{padding:0 10px 0 10px;height:33px;border:1px solid #ddd;border-radius:2px}
 .fullscreen,.go-qrcode,.open,.post-metaa .tools .go-comment,.size,#comment-post .sbsb,#usb,#submit,#reset,.zujian,.face{background-color: #e6e6e6;background-image:linear-gradient(#fcfcfc, #fcfcfc 25%, #e6e6e6);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#fcfcfc), color-stop(25%, #fcfcfc), to(#e6e6e6));background-image:-webkit-linear-gradient(#fcfcfc, #fcfcfc 25%, #e6e6e6);background-image:-moz-linear-gradient(top, #fcfcfc, #fcfcfc 25%, #e6e6e6);background-image:-ms-linear-gradient(#fcfcfc, #fcfcfc 25%, #e6e6e6);text-shadow:0 1px 0 #fff;}
@@ -546,7 +546,7 @@ ul.link-content li img{float:left;margin:4px 8px 2px 6px;width:16px;height:16px;
 .smilebg{padding:5px;position:absolute;z-index:99;display:none;margin:-55px 0 0 36px;width:190px;height:130px;border:solid #ddd 1px;border-radius:2px;background:#fff;box-shadow:0 0 10px #f1f1f1;line-height:20px}
 .facer{vertical-align:text-bottom}
 .ajaxloading{display:none;padding-left:20px;background:url(images/loading.gif) no-repeat left center;font-size:12px}
-.error{display:none;padding-left:20px;background:url(images/error.png) no-repeat left center;font-size:12px}
+.error{display:none;padding-left:20px;background:url(https://ae01.alicdn.com/kf/HTB1Fakuaa61gK0jSZFl760DKFXab.png) no-repeat left center;font-size:12px}
 @media screen and (max-width:980px){#wrapper{overflow:hidden;margin:0}
 #circle,#circle1,#circletext,.fullscreen,.link-back2top,.m-nav,.post-navigation{display:none!important}
 }
@@ -749,7 +749,7 @@ ul.link-content li{width:40%;}
 .changebg ul li:nth-child(9){background:url(https://ss0.baidu.com/94o3dSag_xI4khGko9WTAnF6hhy/super/pic/item/4d086e061d950a7b3245982e04d162d9f3d3c9ec.jpg)}
 .changebg ul li:nth-child(10){background:url(https://ss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/super/pic/item/ac345982b2b7d0a273bad277c5ef76094a369aed.jpg)}
 .bg-images_tanchu{width:100%;height:100%;position:fixed;top:0;left:0;z-index:9997}
-#kaiguan{float:right;display:block;width:19px;height:19px;background:url(https://cdnjs.yava.pw/hf99/20181125/css/mb/images/close.png) no-repeat;-webkit-transition:all .6s ease-in-out 0s;-moz-transition:all .6s ease-in-out 0s;transition:all .6s ease-in-out 0s}
+#kaiguan{float:right;display:block;width:19px;height:19px;background:url(https://ae01.alicdn.com/kf/HTB1Dc7tahv1gK0jSZFF7620sXXar.png) no-repeat;-webkit-transition:all .6s ease-in-out 0s;-moz-transition:all .6s ease-in-out 0s;transition:all .6s ease-in-out 0s}
 #kaiguan:hover{-webkit-transform:rotate(-270deg);-moz-transform:rotate(-270deg);-o-transform:rotate(-270deg);transform:rotate(-270deg);-ms-transform:rotate(-270deg)}
 .animated{-webkit-animation-duration:1s;-moz-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both}
 @-webkit-keyframes flipInX{0%{-webkit-transform:perspective(400px) rotateX(90deg);opacity:0}
@@ -790,7 +790,7 @@ ul.link-content li{width:40%;}
 .tijiao i{font-size:15px}
 .hidecss{border:1px dashed #ff9a9a;background:#ffffe0 url(https://cdnjs.yava.pw/hf99/20181125/css/mb/images/locked.gif) no-repeat 9px 12px;padding:5px 0 5px 25px;margin:5px auto;color:#666;line-height:26px}
 .hidecss img,.showcss img{vertical-align:middle;margin:0 5px;border:none}
-.showcss{border:1px dashed #ff9a9a;background:#ffffe0 url(https://cdnjs.yava.pw/hf99/20181125/css/mb/images/valid.png) no-repeat 4px 10px;padding:5px 0 5px 25px;margin:5px auto;color:#666;line-height:26px}
+.showcss{border:1px dashed #ff9a9a;background:#ffffe0 url(https://ae01.alicdn.com/kf/HTB1uFguakL0gK0jSZFx760WHVXaM.png) no-repeat 4px 10px;padding:5px 0 5px 25px;margin:5px auto;color:#666;line-height:26px}
 .prettyprint,pre.prettyprint{background-color:rgba(0,0,0,.8);border:1px solid #272822;overflow:hidden;padding:8px}
 .prettyprint.linenums,pre.prettyprint.linenums{-webkit-box-shadow:inset 40px 0 0 #39382E,inset 41px 0 0 #464741;-moz-box-shadow:inset 40px 0 0 #39382E,inset 41px 0 0 #464741;box-shadow:inset 40px 0 0 #39382E,inset 41px 0 0 #464741}
 .prettyprint.linenums ol,pre.prettyprint.linenums ol{margin:0 0 0 33px}
