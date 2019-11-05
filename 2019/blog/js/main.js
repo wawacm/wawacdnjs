@@ -101,33 +101,7 @@ $(window).scroll(function() {
     document.documentElement.scrollTop + document.body.scrollTop > 200 ? scroller.fadeIn() : scroller.fadeOut();
 })
 $(".conment-btn").html($('.comment-respond').length?"<a href=\"javascript:(scrollTo('#comments',-90));\"><i class=\"fa fa-comments\"></i></a><h6>去评论<i></i></h6>":'')
-$("#qqhao").blur(function() {
-	$("#qqhao").attr("disabled", false);
-	$("#ajaxloading").html('<img src="' + pjaxtheme + 'img/loading.gif"><a style="font-size:12px;margin-left:5px;">正在获取QQ信息..</a>');
-	$.ajax({
-		url: api_url + "api/nic.php?qq=" + $("#qqhao").val(),
-		type: "GET",
-		dataType: "jsonp",
-		success: function(a) {
-			if (a.name) {
-				$("#ajaxloading").hide();
-				$("#author").val(a.name);
-				$("#email").val($("#qqhao").val() + "@qq.com");
-				$("#url").val("http://user.qzone.qq.com/" + $("#qqhao").val());
-				$("#qqhao").attr("disabled", true)
-			} else {
-				$("#ajaxloading").hide();
-				$(".comment-form-qq").removeAttr("disabled");
-				$("#error").html('<img src="' + pjaxtheme + 'img/error.png"> qq账号错误').show().fadeOut(4E3)
-			}
-		},
-		error: function(a, b, c) {
-			$("#ajaxloading").hide();
-			$(".comment-form-qq").removeAttr("disabled");
-			$("#error").html('<img src="' + pjaxtheme + 'img/error.png"> qq账号错误').show().fadeOut(4E3)
-		}
-	})
-});
+
 $("#submit").on("click",function(){
 	$('.faceshow').hide();
 	$("#ajaxloading1").html('<img style="margin-left:5px;" src="'+ pjaxtheme +'img/loading.gif"><a style="font-size:12px;margin-left:5px;">正在提交评论..</a>');
@@ -164,34 +138,7 @@ $(".archives").find("ul:first,ul:eq(1),ul:eq(2),ul:eq(3)").show();
 $(".archives h4").click(function(){$(this).next("ul").slideToggle("fast")});
 $(".toggler").click(function() {"展开归档" == jQuery(this).text() ? ($(".archives").find("ul").show(), jQuery(this).text("折叠归档")) : ($(".archives").find("ul").hide(), jQuery(this).text("展开归档"));return !1});
 function qqhaoma(){
-$("#qqhao").blur(function() {
-	$("#qqhao").attr("disabled", false);
-	$("#ajaxloading").html('<img src="' + pjaxtheme + 'img/loading.gif"><a style="font-size:12px;margin-left:5px;">正在获取QQ信息..</a>');
-	$.ajax({
-		url: api_url + "api/nic.php?qq=" + $("#qqhao").val(),
-		type: "GET",
-		dataType: "jsonp",
-		success: function(a) {
-			if (a.name) {
-				$("#ajaxloading").hide();
-				$("#author").val(a.name);
-				$("#email").val($("#qqhao").val() + "@qq.com");
-				$("#url").val("http://user.qzone.qq.com/" + $("#qqhao").val());
-				$("#qqhao").attr("disabled", true)
-			} else {
-				$("#ajaxloading").hide();
-				$(".comment-form-qq").removeAttr("disabled");
-				$("#error").html('<img src="' + pjaxtheme + 'img/error.png"> qq账号错误').show().fadeOut(4E3)
-			}
-		},
-		error: function(a, b, c) {
-			$("#ajaxloading").hide();
-			$(".comment-form-qq").removeAttr("disabled");
-			$("#error").html('<img src="' + pjaxtheme + 'img/error.png"> qq账号错误').show().fadeOut(4E3)
-		}
-	})
-});
-}
+
 function tops() {
 	$('html,body').animate({scrollTop:0});
 }
