@@ -137,7 +137,7 @@ $(".archives").find("ul").hide();
 $(".archives").find("ul:first,ul:eq(1),ul:eq(2),ul:eq(3)").show();
 $(".archives h4").click(function(){$(this).next("ul").slideToggle("fast")});
 $(".toggler").click(function() {"展开归档" == jQuery(this).text() ? ($(".archives").find("ul").show(), jQuery(this).text("折叠归档")) : ($(".archives").find("ul").hide(), jQuery(this).text("展开归档"));return !1});
-function qqhaoma(){
+
 
 function tops() {
 	$('html,body').animate({scrollTop:0});
