@@ -1,196 +1,377 @@
-﻿<!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="娃娃电脑维修">
-<meta name="keywords" content="娃娃团队官方CDNjs界面" />
-<meta name="author" content="cdnjs.yava.pw">
-<link rel="shortcut icon" href="" />
-<title>娃娃团队-官方CDNjs页面。</title>
-<link rel="stylesheet" href="cdncss/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="cdncss/bootstrap-grid.min.css" />
-<!--播放器-->
-<style type="text/css">
-	.btn{
-		border: none;
-		border-radius: 0;
-		text-transform: uppercase;
-		padding-top: 0;
-		padding-bottom: 0;
-		position: relative;
-		transition: all 0.3s ease 0s;
-	}
-	.btn:before{
-		content: "";
-		display: block;
-		width: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
-		border-top: 2px solid transparent;
-		transition: all 0.3s ease 0s;
-	}
-	.btn:hover:before{
-		transform: translateY(42px);
-	}
-	.btn:after{
-		content: "\f105";
-		font-family:fontawesome;
-		display: inline-block;
-		width: 44px;
-		height: 44px;
-		border: 2px solid transparent;
-		font-size: 24px;
-		line-height: 40px;
-		position: relative;
-		top: 0;
-		right: -16px;
-		transition: all 0.43s ease 0s;
-	}
-	.btn:hover:after{
-		transform: rotateX(180deg);
-	}
-	.btn.btn-sm:hover:before{
-		transform: translateY(32px);
-	}
-	.btn.btn-sm:after{
-		width: 34px;
-		height: 34px;
-		line-height: 30px;
-		font-size: 20px;
-		right: -10px;
-	}
-	.btn.btn-xs:hover:before{
-		transform: translateY(22px);
-	}
-	.btn.btn-xs:after{
-		width: 24px;
-		height: 24px;
-		line-height: 20px;
-		font-size: 16px;
-		right: -5px;
-	}
-	.btn.red{
-		color: #ff6e6e;
-	}
-	.btn.red:before,
-	.btn.red:after{
-		border-color: #ff6e6e;
-	}
-	.btn.blue{
-		color: #5cbcf7;
-	}
-	.btn.blue:before,
-	.btn.blue:after{
-		border-color: #5cbcf7;
-	}
-	.btn.orange{
-		color: #ef965b;
-	}
-	.btn.orange:before,
-	.btn.orange:after{
-		border-color: #ef965b;
-	}
-	.btn.green{
-		color: #7ad79a;
-	}
-	.btn.green:before,
-	.btn.green:after{
-		border-color: #7ad79a;
-	}
-	.btn.bai{
-		color: #fff;
-	}
-	.btn.bai:before,
-	.btn.bai:after{
-		border-color: #fff;
-	}
-	.btn.ju{
-		color: #FF5722;
-	}
-	.btn.ju:before,
-	.btn.ju:after{
-		border-color: #FF5722;
-	}
-	@media only  screen and (max-width: 767px){
-		.btn{ margin-bottom: 20px; }
-	}
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+<title>娃娃云oss*cmofwawacloud</title>
+
+<script type="text/javascript" src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+
+<style>
+html, body {
+  background: #28254C;
+  font-family: 'Ubuntu';
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 350px;
+  height: 100%;
+  max-height: 600px;
+  min-height: 450px;
+  background: #332F63;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 50px;
+}
+.box .box__ghost {
+  padding: 15px 25px 25px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+}
+.box .box__ghost .symbol:nth-child(1) {
+  opacity: .2;
+  animation: shine 4s ease-in-out 3s infinite;
+}
+.box .box__ghost .symbol:nth-child(1):before, .box .box__ghost .symbol:nth-child(1):after {
+  content: '';
+  width: 12px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  border-radius: 5px;
+  bottom: 65px;
+  left: 0;
+}
+.box .box__ghost .symbol:nth-child(1):before {
+  transform: rotate(45deg);
+}
+.box .box__ghost .symbol:nth-child(1):after {
+  transform: rotate(-45deg);
+}
+.box .box__ghost .symbol:nth-child(2) {
+  position: absolute;
+  left: -5px;
+  top: 30px;
+  height: 18px;
+  width: 18px;
+  border: 4px solid;
+  border-radius: 50%;
+  border-color: #fff;
+  opacity: .2;
+  animation: shine 4s ease-in-out 1.3s infinite;
+}
+.box .box__ghost .symbol:nth-child(3) {
+  opacity: .2;
+  animation: shine 3s ease-in-out .5s infinite;
+}
+.box .box__ghost .symbol:nth-child(3):before, .box .box__ghost .symbol:nth-child(3):after {
+  content: '';
+  width: 12px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  border-radius: 5px;
+  top: 5px;
+  left: 40px;
+}
+.box .box__ghost .symbol:nth-child(3):before {
+  transform: rotate(90deg);
+}
+.box .box__ghost .symbol:nth-child(3):after {
+  transform: rotate(180deg);
+}
+.box .box__ghost .symbol:nth-child(4) {
+  opacity: .2;
+  animation: shine 6s ease-in-out 1.6s infinite;
+}
+.box .box__ghost .symbol:nth-child(4):before, .box .box__ghost .symbol:nth-child(4):after {
+  content: '';
+  width: 15px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  border-radius: 5px;
+  top: 10px;
+  right: 30px;
+}
+.box .box__ghost .symbol:nth-child(4):before {
+  transform: rotate(45deg);
+}
+.box .box__ghost .symbol:nth-child(4):after {
+  transform: rotate(-45deg);
+}
+.box .box__ghost .symbol:nth-child(5) {
+  position: absolute;
+  right: 5px;
+  top: 40px;
+  height: 12px;
+  width: 12px;
+  border: 3px solid;
+  border-radius: 50%;
+  border-color: #fff;
+  opacity: .2;
+  animation: shine 1.7s ease-in-out 7s infinite;
+}
+.box .box__ghost .symbol:nth-child(6) {
+  opacity: .2;
+  animation: shine 2s ease-in-out 6s infinite;
+}
+.box .box__ghost .symbol:nth-child(6):before, .box .box__ghost .symbol:nth-child(6):after {
+  content: '';
+  width: 15px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  border-radius: 5px;
+  bottom: 65px;
+  right: -5px;
+}
+.box .box__ghost .symbol:nth-child(6):before {
+  transform: rotate(90deg);
+}
+.box .box__ghost .symbol:nth-child(6):after {
+  transform: rotate(180deg);
+}
+.box .box__ghost .box__ghost-container {
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px 100px 0 0;
+  position: relative;
+  margin: 0 auto;
+  animation: upndown 3s ease-in-out infinite;
+}
+.box .box__ghost .box__ghost-container .box__ghost-eyes {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  height: 12px;
+  width: 70px;
+}
+.box .box__ghost .box__ghost-container .box__ghost-eyes .box__eye-left {
+  width: 12px;
+  height: 12px;
+  background: #332F63;
+  border-radius: 50%;
+  margin: 0 10px;
+  position: absolute;
+  left: 0;
+}
+.box .box__ghost .box__ghost-container .box__ghost-eyes .box__eye-right {
+  width: 12px;
+  height: 12px;
+  background: #332F63;
+  border-radius: 50%;
+  margin: 0 10px;
+  position: absolute;
+  right: 0;
+}
+.box .box__ghost .box__ghost-container .box__ghost-bottom {
+  display: flex;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.box .box__ghost .box__ghost-container .box__ghost-bottom div {
+  flex-grow: 1;
+  position: relative;
+  top: -10px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.box .box__ghost .box__ghost-container .box__ghost-bottom div:nth-child(2n) {
+  top: -12px;
+  margin: 0 -0px;
+  border-top: 15px solid #332F63;
+  background: transparent;
+}
+.box .box__ghost .box__ghost-shadow {
+  height: 20px;
+  box-shadow: 0 50px 15px 5px #3B3769;
+  border-radius: 50%;
+  margin: 0 auto;
+  animation: smallnbig 3s ease-in-out infinite;
+}
+.box .box__description {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.box .box__description .box__description-container {
+  color: #fff;
+  text-align: center;
+  width: 200px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.box .box__description .box__description-container .box__description-title {
+  font-size: 24px;
+  letter-spacing: .5px;
+}
+.box .box__description .box__description-container .box__description-text {
+  color: #8C8AA7;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.box .box__description .box__button {
+  display: block;
+  position: relative;
+  background: #FF5E65;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  line-height: 50px;
+  font-size: 18px;
+  padding: 0 70px;
+  white-space: nowrap;
+  margin-top: 25px;
+  transition: background .5s ease;
+  overflow: hidden;
+}
+.box .box__description .box__button:before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 100px;
+  background: #fff;
+  bottom: -25px;
+  left: 0;
+  border: 2px solid #fff;
+  transform: translateX(-50px) rotate(45deg);
+  transition: transform .5s ease;
+}
+.box .box__description .box__button:hover {
+  background: transparent;
+  border-color: #fff;
+}
+.box .box__description .box__button:hover:before {
+  transform: translateX(250px) rotate(45deg);
+}
+
+@keyframes upndown {
+  0% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+@keyframes smallnbig {
+  0% {
+    width: 90px;
+  }
+  50% {
+    width: 100px;
+  }
+  100% {
+    width: 90px;
+  }
+}
+@keyframes shine {
+  0% {
+    opacity: .2;
+  }
+  25% {
+    opacity: .1;
+  }
+  50% {
+    opacity: .2;
+  }
+  100% {
+    opacity: .2;
+  }
+}
 </style>
-       <link href="cdncss/location.css" type="text/css" rel="stylesheet">
-	   
-   </head>
-<script>function fuckyou(){
-      window.close(); //关闭当前窗口(防抽)
-     window.location="http://yava.pw/"; //将当前窗口跳转置空白页
-}
-  function ck() {
-    console.profile();
-    console.profileEnd();
-    //我们判断一下profiles里面有没有东西，如果有，肯定有人按F12了，没错！！
-    if(console.clear) { console.clear() };
-                        if (typeof console.profiles =="object"){
-    return console.profiles.length > 0;
-                        }
-}
-function hehe(){
-if( (window.console && (console.firebug || console.table && /firebug/i.test(console.table()) )) || (typeof opera == 'object' && typeof opera.postError == 'function' && console.profile.length > 0)){
-  fuckyou();
-}
-if(typeof console.profiles =="object"&&console.profiles.length > 0){
-fuckyou();
-}
-}
-hehe();
-window.onresize = function(){
-if((window.outerHeight-window.innerHeight)>200)
-//判断当前窗口内页高度和窗口高度，如果差值大于200，那么呵呵
-   fuckyou();
-}</script> 
-<script type="text/javascript"> 
-  document.onkeydown = function(event){
-   if ((event.ctrlKey)&&(event.keyCode==115 || event.keyCode==83)){
-    event.returnValue=false;
-    return;
-   } 
-  }
- </script> 
- <script type="text/javascript"> 
-  function test(){ 
-   var dom = document.getElementById("myimg");
-   alert(dom.src);
-  }
- </script> 
-    <body class="body--ready" data-pinterest-extension-installed="cr1.39.1"  oncontextmenu=self.event.returnValue=false onselectstart="return false">
-	
-        <canvas class="canvas" width="100%" height="100%"></canvas>
-    <div id="willerce">
-    <div>
-       <img src="picture/logo.jpg" id="logo" title="missasuozy"/>
-       <h1>娃娃团队</h1>
-	   <a>娃娃电脑维修</a>	
-    </div>	
-    <div class="menu">
-      <a class="btn btn-lg red" href="http://yava.pw/" >官方博客</a>
-	  
-        
-	 </div>
+</head>
+<body>
+<div class="box">
+  <div class="box__ghost">
+    <div class="symbol"></div>
+    <div class="symbol"></div>
+    <div class="symbol"></div>
+    <div class="symbol"></div>
+    <div class="symbol"></div>
+    <div class="symbol"></div>
+    
+    <div class="box__ghost-container">
+      <div class="box__ghost-eyes">
+        <div class="box__eye-left"></div>
+        <div class="box__eye-right"></div>
+      </div>
+      <div class="box__ghost-bottom">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="box__ghost-shadow"></div>
   </div>
-  <span class="copyright">&copy; 娃娃团队官方CDNjs界面</span>
-        <script src="cdnjs/seffects.js" type="text/javascript"></script>
-<!--播放器 -->
+  
+  <div class="box__description">
+    <div class="box__description-container">
+      <div class="box__description-title">娃娃云oss储存界面</div>
+      <div class="box__description-text">本系统由又拍云提供技术支持</div>
+	  <a  href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="./u.png" width="90" height="40" /></a>
+  </div>
+
+    
+  </div>
+  
+</div>
 
 
-<script src="cdnjs/jquery.min.js"></script>
-<script src="cdnjs/jquery.marquee.min.js"></script>
+
+
+
+
+
+
+
 
 
 <script>
 
-function bgChange(){
-	var lis= $('.lib');
-	for(var i=0; i<lis.length; i+=2)
-	lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
-}
-window.onload = bgChange;
-</script>
-</body><div></div></html>
+
+var pageX = $(document).width();
+var pageY = $(document).height();
+var mouseY=0;
+var mouseX=0;
+
+$(document).mousemove(function( event ) {
+
+  mouseY = event.pageY;
+  yAxis = (pageY/2-mouseY)/pageY*300; 
+
+  mouseX = event.pageX / -pageX;
+  xAxis = -mouseX * 100 - 100;
+
+  $('.box__ghost-eyes').css({ 'transform': 'translate('+ xAxis +'%,-'+ yAxis +'%)' }); 
+
+
+
+});</script>
+
+
+</body>
+</html>
