@@ -1,0 +1,54 @@
+﻿body{background:#fff;font:14px/1.5 tahoma,arial,"Microsoft YaHei";margin:0px;padding:0px;font-size:12px;}ul,li,p,h1,h2,h3,h4,h5,h6{padding:0px;margin:0px;list-style:none;}a{color:#444;text-decoration:none;}a:hover{color:#F36;}
+.sltgq{margin:auto;overflow:hidden;clear:both; max-width:800px; border-width: 1px 1px 1px 3px;border-style: solid;border-color: #D6E9C6;padding: 5px 15px 10px;background-color:#FAFCF9;}
+.sltgbt{line-height:30px;height:46px;font-size:16px;padding:10.0px; margin-top:20px;font-weight:bold;color: #e53333;border-width: 1.0px 1.0px 1.0px 3.0px;border-style: solid;border-color: #eeeeee #eeeeee #eeeeee #5db8f8;background-color: #f6f6f6;}
+.sltgbt p{float:left;}
+.sltgbt span{float:right;} .sltgbt span a{color:#00F;}.sltgbt span a:hover{color:#F36;text-decoration:underline;}
+.tougao1,.tougao2{margin:0 10px;overflow:hidden;clear:both;}
+.tougao1 li{clear:both; overflow:hidden;}
+.tougao1 li p{line-height:20px;font-weight:bold; margin:5px 0;}
+.tougao1 li input{height:26px;line-height:26px;padding: 3px 4px;font-size: 14px;font-weight: 400;color: #555;background-color: #eee;border: 1px solid #ccc;
+border-radius: 4px}
+.tougao1 li b{color:#F00;}
+.tougao2{margin-top:10px; width:90%;}
+.tougao2 li{overflow:hidden;float:left; margin-right:10px;}
+.tougao2 li p{float:left;border:1px solid #999;height:30px;line-height:30px;padding:0 10px; font-weight:bold;}
+.tougao2 li input{height:26px; line-height:26px;}
+.tougao2 li img{ margin-top:5px;}
+.button input{height:32px;float:left;padding: 0 25px;font-size: 14px;font-weight: 400;line-height: 1;color: #fff;background-color:#fd6639;border: 1px solid #ccc;border-radius: 4px;}
+.button input:hover{background:#999999;color:#fff;}
+.tougao2 label{height:32px;line-height:32px; float:right;}
+.nr{margin:auto;overflow:hidden;clear:both; margin-bottom:20px;}
+.nr ul{margin:10px; line-height:25px; font-size:14px;}
+.foot{margin:10px auto;text-align:center;clear:both;overflow:hidden;border-top:1px dashed #ccc;padding:10px 0;line-height:22px;font-size:12px;background:#fff;color:#999;}
+
+/**后台**/
+.sltg{clear:both;overflow:hidden;}
+.sltg ul{padding:0px;border:1px solid #bbb;}
+.sltg ul li{clear:both;overflow:hidden;}
+.sltg ul li{line-height:40px;height:40px;border-bottom:1px solid #bbb;}
+.sltg ul li h4{float:left;padding:0px;margin:0px;border-right:1px solid #bbb; width:120px; text-align:center;}
+.sltg ul li p{border-left:1px solid #bbb;float:left;padding-left:5px;margin:0px;}
+.sltg ul .one{float:left;line-height:40px;}
+.sltg ul .name{width:400px;}
+#name{width:380px;}
+.sltg ul .one input{height:26px;line-height:26px;border:1px solid #bbb;margin:5px; padding-left:5px;}
+.sltg ul .radio{float:left;width:150px;}
+.sltg ul .radio input{height:26px;line-height:26px;margin:5px;overflow:hidden; float:left;}
+.sltg ul .radio label{float:left;}
+
+.sltg ul .duo{float:left;width:48px;}
+.sltg ul .duo input{height:26px;line-height:26px;margin:5px;overflow:hidden;float:left;border:1px solid #bbb}
+.sltg ul .duo label{float:left;}
+
+.sltg ul .sl{margin:5px; font-size:13px; line-height:22px;}
+.sltg b{color:#F00;}
+
+.styled-select select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   height: 34px;
+   -webkit-appearance: none; /*for chrome*/
+}
