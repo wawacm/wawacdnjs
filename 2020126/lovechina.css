@@ -1,0 +1,118 @@
+/*
+//加油武汉，加油中国
+//cmofwawa
+*/
+body,pre,p{
+    margin: 0;
+}
+.view{
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: #10aeb5;
+    height: 100%;
+    padding-bottom: 15px;
+}
+.header{
+    background: url(https://ae01.alicdn.com/kf/Uc79ad2c320bf4f309c56f53bb4dbe40fo.png) no-repeat;
+    background-size: 100%;
+    height: 180px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-top: 71px;
+}
+.header .title{
+    font-size: 1.75rem;
+    color: #fff;
+    font-weight: 700;
+}
+.header .to-title{
+    color: #fff;
+    background-color: #0994a7;
+    display: inline-block;
+    border-radius: 0.875rem;
+    margin-top: 10px;
+    padding:0 12px;
+    font-weight: 700;
+}
+.show{
+    margin: 0 2%;
+    background-color: #ffffff;
+    border-radius: 0.875rem;
+    padding-top:18px;
+}
+.show .total{
+    background-color: #f5f6f7;
+    margin:0 18px;
+    border-radius: 0.675rem;
+    padding: 15px;
+}
+.show .total .title{
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+    color: #555;
+    font-weight: 700;
+}
+.show .total .title span:nth-child(2){
+    float: right;
+    font-size: 0.5rem;
+    padding-top: 18px;
+    font-weight: 400;
+    color: #face15;
+}
+.show .total .desc{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.show .map{
+    margin: 18px 2%;
+}
+.show .list ul{
+    color: #face15;
+    font-size: 18px;
+    font-weight: 700;
+}
+.show .list ul li span{
+    color: black;
+
+}
+.show .timeline{
+    margin: 18px 2%;
+}
+.show .timeline .title{
+    margin-left: 10px;
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.timeline .content{
+    margin-left: 22px;
+    margin-right: 10px;
+    border-left: 1px solid #eee;
+    box-sizing: border-box;
+    position: relative;
+}
+.timeline .content .i{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: .05rem;
+    left: -.38rem;
+    width: .375rem;
+    height: .375rem;
+    background: #0faeb5;
+    border-radius: .375rem;
+    border: .1875rem solid #cfeff0;
+}
+.timeline .c{
+    position: relative;
+    top: -0.3rem;
+    margin-left: 15px;
+    padding-bottom: 8px;
+}
+.timeline .c .show_time{
+    color: #999;
+    font-size: 0.8rem;
+}
+.show .tip{
+    margin: 0 2%;
+}
