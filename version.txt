@@ -1,0 +1,6 @@
+version:1.0.8
+configure:nochange
+Update content:
+1. 支持IPv6检查;
+2. 优化在线安装脚本，减少下载失败几率；
+2. 基于/proc/net检查，替换netstat，避免在高并发时netstat导致CPU高负载的问题，感谢Late Winter指出，检查代码来自DDoS-Defender-v2.1.0。
